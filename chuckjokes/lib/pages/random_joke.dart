@@ -13,8 +13,6 @@ class RandomJokeScreen extends StatefulWidget {
 }
 
 class RandomJokeScreenState extends State<RandomJokeScreen> {
-  String firstJoke =
-      "Hurricanes are mother nature's way of running from Chuck Norris";
   String imageUrl =
       'https://images01.military.com/sites/default/files/styles/full/public/2021-04/chucknorris.jpeg.jpg?itok=2b4A6n29';
   RandomJoke? data;
@@ -49,7 +47,7 @@ class RandomJokeScreenState extends State<RandomJokeScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const SizedBox(height: 30),
-                  JokeContainer(data: data, firstJoke: firstJoke),
+                  JokeContainer(data: data),
                   const SizedBox(height: 20),
                   ElevatedButton(
                     onPressed: handleGetRandomJoke,

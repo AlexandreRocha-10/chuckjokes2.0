@@ -2,14 +2,11 @@ import 'package:flutter/material.dart';
 import '../models/random_joke_model.dart';
 
 class JokeContainer extends StatelessWidget {
+  final String firstJoke =
+      "Hurricanes are mother nature's way of running from Chuck Norris";
   final RandomJoke? data;
-  final String firstJoke;
 
-  const JokeContainer({
-    Key? key,
-    this.data,
-    required this.firstJoke,
-  }) : super(key: key);
+  const JokeContainer({super.key, this.data});
 
   @override
   Widget build(BuildContext context) {

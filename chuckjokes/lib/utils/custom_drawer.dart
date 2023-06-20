@@ -18,7 +18,7 @@ class MyDrawer extends StatelessWidget {
                 CircleAvatar(
                   radius: 60,
                   backgroundImage: NetworkImage(
-                    'https://i0.statig.com.br/bancodeimagens/6a/vj/b0/6avjb01he0tx8qlhjbu7hfu4y.jpg', // Insira a URL da imagem do Chuck Norris aqui
+                    'https://i0.statig.com.br/bancodeimagens/6a/vj/b0/6avjb01he0tx8qlhjbu7hfu4y.jpg',
                   ),
                 ),
                 SizedBox(height: 16),
